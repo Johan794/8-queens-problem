@@ -3,6 +3,7 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
 import ChessBoard from './components/ChessBoard.vue'
+import QueensContainer from './components/QueensContainer.vue';
 </script>
 
 <template>
@@ -11,7 +12,7 @@ import ChessBoard from './components/ChessBoard.vue'
  <h1>8 queen's problem</h1>
  <h1>Please take your queens</h1>
  <br>
-
+  <QueensContainer />
   <ChessBoard />
 </template>
 

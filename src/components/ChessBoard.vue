@@ -14,8 +14,6 @@ components: {
                 :index="i * 8 + j"
                 :color="(i + j) % 2 ? 'black' : 'white'"
             />
-
-
         </div>
         </div>
     </div>
